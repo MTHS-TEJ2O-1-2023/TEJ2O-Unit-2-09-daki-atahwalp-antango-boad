@@ -20,21 +20,21 @@ input.onGesture(Gesture.Shake, function () {
   // If randomNumber is 0
   if (randomNumber === 0) {
 
-  basic.showLeds(`
+    basic.showLeds(`
 . . . . .
 . # # # .
 . # # # .
 . # # # .
 . . . . .
 `)
-  pause(5000)
-  basic.showIcon(IconNames.Happy)
+    pause(5000)
+    basic.showIcon(IconNames.Happy)
   }
 
 })
 
-  // If randomNumber is 1
-  if (randomNumber === 1) {
+// If randomNumber is 1
+if (randomNumber === 1) {
 
   basic.showLeds(`
 # # # # #
@@ -46,20 +46,20 @@ input.onGesture(Gesture.Shake, function () {
   pause(5000)
   basic.showIcon(IconNames.Happy)
 
-  }
-
-  // If randomNumber is 2
-  if (randomNumber === 2) {
+}
+  
+// If randomNumber is 2
+if (randomNumber === 2) {
 
   basic.showIcon(IconNames.Scissors)
   basic.pause(5000)
   basic.showIcon(IconNames.Happy)
 
-  }
+}
 
-  // Pause and show you are ready
-  basic.pause(1000)
-  basic.showIcon(IconNames.Happy)
+// Pause and show you are ready
+basic.pause(1000)
+basic.showIcon(IconNames.Happy)
 
 // On button A
 input.onButtonPressed(Button.A, function () {
@@ -70,7 +70,7 @@ input.onButtonPressed(Button.A, function () {
   basic.showIcon(IconNames.Happy)
 
 })
-  
+
 // On button B
 input.onButtonPressed(Button.B, function () {
 
