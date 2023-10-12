@@ -5,7 +5,7 @@
  * This program plays rock paper scissors on a Microbit
 */
 
-let randomNumber: number = 0
+let randomNumber: number = randint(0, 2)
 let score: number 
 score = 0
 
@@ -27,7 +27,7 @@ input.onGesture(Gesture.Shake, function() {
 . # # # .
 . . . . .
 `)
-  pause(1000)
+  pause(5000)
   basic.showIcon(IconNames.Happy)
   }
 
@@ -43,7 +43,7 @@ if (randomNumber === 1) {
 # . . . #
 # # # # #
 `)
-  pause(1000)
+  pause(5000)
   basic.showIcon(IconNames.Happy)
 
   }
@@ -52,7 +52,7 @@ if (randomNumber === 1) {
   if (randomNumber === 2) {
 
     basic.showIcon(IconNames.Scissors)
-    basic.pause(1000)
+    basic.pause(5000)
     basic.showIcon(IconNames.Happy)
 
   }
