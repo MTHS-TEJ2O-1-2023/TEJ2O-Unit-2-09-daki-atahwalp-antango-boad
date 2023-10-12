@@ -18,7 +18,6 @@ input.onGesture(Gesture.Shake, function () {
 
   // If randomNumber is 0
   if (randomNumber === 0) {
-
     basic.showLeds(`
 . . . . .
 . # # # .
