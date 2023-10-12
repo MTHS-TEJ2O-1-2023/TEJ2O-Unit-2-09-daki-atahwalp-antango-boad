@@ -2,7 +2,7 @@
  *
  * Created by: Daki A.B
  * Created on: Oct 2023
- * This program plas rock paper scissors on a Microbit
+ * This program plays rock paper scissors on a Microbit
 */
 
 let randomNumber: number = 0
