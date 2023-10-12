@@ -6,13 +6,13 @@
 */
 
 let randomNumber: number
-let score: number 
+let score: number
 score = 0
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-input.onGesture(Gesture.Shake, function() {
+input.onGesture(Gesture.Shake, function () {
     
   randomNumber = randint(0, 2)
   basic.clearScreen()
@@ -62,7 +62,7 @@ input.onGesture(Gesture.Shake, function() {
   basic.showIcon(IconNames.Happy)
 
 // On button A
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
 
   score = score + 1
   basic.showIcon(IconNames.Yes)
@@ -72,7 +72,7 @@ input.onButtonPressed(Button.A, function() {
 })
   
 // On button B
-input.onButtonPressed(Button.B, function() {
+input.onButtonPressed(Button.B, function () {
 
   basic.clearScreen()
   basic.showString('Score : ')
