@@ -20,7 +20,7 @@ input.onGesture(Gesture.Shake, function () {
   // If randomNumber is 0
   if (randomNumber === 0) {
 
-    basic.showLeds(`
+  basic.showLeds(`
 . . . . .
 . # # # .
 . # # # .
@@ -36,7 +36,7 @@ input.onGesture(Gesture.Shake, function () {
   // If randomNumber is 1
   if (randomNumber === 1) {
 
-    basic.showLeds(`
+  basic.showLeds(`
 # # # # #
 # . . . #
 # . . . #
@@ -51,9 +51,9 @@ input.onGesture(Gesture.Shake, function () {
   // If randomNumber is 2
   if (randomNumber === 2) {
 
-    basic.showIcon(IconNames.Scissors)
-    basic.pause(5000)
-    basic.showIcon(IconNames.Happy)
+  basic.showIcon(IconNames.Scissors)
+  basic.pause(5000)
+  basic.showIcon(IconNames.Happy)
 
   }
 
@@ -76,7 +76,8 @@ input.onButtonPressed(Button.B, function () {
 
   basic.clearScreen()
   basic.showString('Score : ')
-    basic.showString(score.toString())
-    basic.pause(1000)
-    basic.showIcon(IconNames.Happy)
+  basic.showString(score.toString())
+  basic.pause(1000)
+  basic.showIcon(IconNames.Happy)
+
 })
