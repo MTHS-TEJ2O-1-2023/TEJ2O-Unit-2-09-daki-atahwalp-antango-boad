@@ -43,7 +43,7 @@ if (randomNumber === 1) {
   pause(5000)
   basic.showIcon(IconNames.Happy)
 }
-  
+
 // If randomNumber is 2
 if (randomNumber === 2) {
   basic.showIcon(IconNames.Scissors)
