@@ -17,38 +17,38 @@ input.onGesture(Gesture.Shake, function () {
   randomNumber = randint(0, 2)
   basic.clearScreen()
 
-// If randomNumber is 0
-if (randomNumber === 0) {
-  basic.showLeds(`
+  // If randomNumber is 0
+  if (randomNumber === 0) {
+    basic.showLeds(`
   . . . . .
   . # # # .
   . # # # .
   . # # # .
   . . . . .
 `)
-  pause(5000)
-  basic.showIcon(IconNames.Happy)
-    }
+    pause(5000)
+    basic.showIcon(IconNames.Happy)
+  }
 
-// If randomNumber is 1
-if (randomNumber === 1) {
-  basic.showLeds(`
+  // If randomNumber is 1
+  if (randomNumber === 1) {
+    basic.showLeds(`
   # # # # #
   # . . . #
   # . . . #
   # . . . #
   # # # # #
 `)
-  pause(5000)
-  basic.showIcon(IconNames.Happy)
+    pause(5000)
+    basic.showIcon(IconNames.Happy)
 }
 
-// If randomNumber is 2
-if (randomNumber === 2) {
-  basic.showIcon(IconNames.Scissors)
-  basic.pause(5000)
-  basic.showIcon(IconNames.Happy)
-}
+  // If randomNumber is 2
+  if (randomNumber === 2) {
+    basic.showIcon(IconNames.Scissors)
+    basic.pause(5000)
+    basic.showIcon(IconNames.Happy)
+  }
 
 })
 
